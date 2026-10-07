@@ -148,5 +148,5 @@ var LINK = {
   expoCity: 'https://www.expocitydubai.com/en/',
   madinat: 'https://www.jumeirah.com/en/stay/dubai/madinat-jumeirah',
   instagramGemma: 'https://www.instagram.com/gemmalenoci/',
-  guida: 'https://gemmalenoci-dotcom.github.io/guida-dubai/',
+  guida: 'https://dubai.gemmalenoci.com/',
 };
