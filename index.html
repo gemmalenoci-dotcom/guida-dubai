@@ -1,0 +1,795 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ti porto a Dubai · la guida di Gemma</title>
+<meta name="description" content="La guida su Dubai di chi ci vive da 4 anni: info pratiche, tour con il 10% di sconto, itinerari, posti preferiti e contatti fidati">
+<meta name="theme-color" content="#F3F2EE">
+<meta property="og:title" content="Ti porto a Dubai · la guida di Gemma">
+<meta property="og:description" content="Info pratiche, tour con il 10% di sconto, itinerari da 3, 5 e 7 giorni">
+<meta property="og:image" content="https://gemmalenoci-dotcom.github.io/guida-dubai/assets/img/cover.jpg">
+<meta property="og:url" content="https://gemmalenoci-dotcom.github.io/guida-dubai/">
+<meta property="og:type" content="website">
+<style>
+@font-face{font-family:'Open Sauce Sans';font-weight:400;font-style:normal;font-display:swap;src:url('assets/fonts/open-sauce-sans-400.woff2') format('woff2')}
+@font-face{font-family:'Open Sauce Sans';font-weight:500;font-style:normal;font-display:swap;src:url('assets/fonts/open-sauce-sans-500.woff2') format('woff2')}
+@font-face{font-family:'Open Sauce Sans';font-weight:700;font-style:normal;font-display:swap;src:url('assets/fonts/open-sauce-sans-700.woff2') format('woff2')}
+@font-face{font-family:'Open Sauce Sans';font-weight:900;font-style:normal;font-display:swap;src:url('assets/fonts/open-sauce-sans-900.woff2') format('woff2')}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400 900;font-display:swap;src:url('assets/fonts/playfair-display-normal-base.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:400 900;font-display:swap;src:url('assets/fonts/playfair-display-italic-base.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400 900;font-display:swap;src:url('assets/fonts/playfair-display-normal-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:400 900;font-display:swap;src:url('assets/fonts/playfair-display-italic-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Gochi Hand';font-weight:400;font-style:normal;font-display:swap;src:url('assets/fonts/gochi-hand-400.woff2') format('woff2')}
+
+:root{
+  color-scheme:light;
+  --rosa:#CD2471; --rosa-tint:#FCEDF4;
+  --blu:#227CC0; --blu-tint:#EBF3FA;
+  --arancio:#F49138; --arancio-tint:#FFF3E6;
+  --paper:#F3F2EE; --ink:#221D20; --ink-body:#4A4446; --muted:#8A8386;
+  --card:#FFFFFF; --line:#E6E2DC;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Open Sauce Sans',system-ui,-apple-system,sans-serif;
+  --hand:'Gochi Hand',cursive;
+  --wa:#1FA855;
+  --r:22px;
+  --shadow:0 1px 0 var(--line),0 10px 30px rgba(34,29,32,.07);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);font-size:17px;line-height:1.5;color:var(--ink-body);
+  background:var(--paper) url('assets/ui/paper.jpg') center top/900px auto repeat;
+  -webkit-print-color-adjust:exact;print-color-adjust:exact}
+img{display:block;max-width:100%}
+a{color:inherit}
+em{font-style:italic}
+b,strong{color:var(--ink);font-weight:700}
+
+/* barra bozza */
+.draft{position:relative;z-index:5;background:var(--ink);color:#fff;font-size:13px;text-align:center;padding:7px 16px;letter-spacing:.01em}
+
+/* ---------- COPERTINA ---------- */
+.hero{position:relative;height:100svh;min-height:620px;max-height:980px;overflow:hidden;color:#fff;background:#2b2626}
+.hero > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 30%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,15,18,.55) 0%,rgba(20,15,18,0) 34%,rgba(20,15,18,0) 52%,rgba(20,15,18,.78) 100%)}
+.hero-top{position:absolute;z-index:2;top:max(28px,env(safe-area-inset-top));left:22px;right:22px}
+.hero h1{font-family:var(--serif);font-weight:500;line-height:.92;letter-spacing:-.035em;text-shadow:0 2px 18px rgba(0,0,0,.25)}
+.hero h1 .a{display:block;font-size:clamp(46px,13vw,92px)}
+.hero h1 .b{display:block;font-size:clamp(92px,29vw,200px);font-style:italic;font-weight:600;color:var(--rosa);margin-left:.18em;margin-top:-.04em;text-shadow:0 2px 24px rgba(0,0,0,.18)}
+.hero-bottom{position:absolute;z-index:2;left:22px;right:22px;bottom:max(30px,env(safe-area-inset-bottom))}
+.hero-bottom p{font-size:19px;line-height:1.3;font-weight:500;max-width:21ch;text-shadow:0 1px 10px rgba(0,0,0,.35)}
+.hand-w{font-family:var(--hand);color:#fff;font-size:26px;line-height:1;text-shadow:0 1px 2px rgba(0,0,0,.45),0 0 14px rgba(0,0,0,.35)}
+.hero .hand-w{display:flex;align-items:flex-end;gap:8px;margin-bottom:10px}
+.hero .hand-w img{width:38px;transform:rotate(-8deg)}
+.scroll-cue{margin-top:18px;display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;opacity:.92}
+.scroll-cue span{display:inline-block;width:26px;height:26px;border-radius:50%;border:1.5px solid #fff;text-align:center;line-height:23px;font-size:15px}
+
+/* ---------- LAYOUT ---------- */
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+section{padding:56px 0}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--blu);margin-bottom:10px}
+h2{font-family:var(--serif);font-weight:500;color:var(--ink);font-size:clamp(38px,10.5vw,60px);line-height:.98;letter-spacing:-.03em}
+h2 em,h3 em,h4 em{color:var(--rosa);font-weight:600}
+h3.sub{font-family:var(--serif);font-weight:500;font-size:30px;color:var(--ink);letter-spacing:-.02em;line-height:1.05;margin:36px 0 14px}
+.lead{font-size:18px;margin-top:16px;max-width:38ch}
+.lead p+p{margin-top:8px}
+.box{background:var(--card);border-radius:var(--r);box-shadow:var(--shadow)}
+.note{font-size:13.5px;color:var(--muted);margin-top:12px}
+.hand-note{font-family:var(--hand);color:var(--rosa);font-size:24px;line-height:1.1;display:flex;align-items:flex-end;gap:6px;margin-top:18px}
+.hand-note img{width:34px}
+
+/* ---------- INTRO ---------- */
+.intro{display:grid;gap:22px}
+.portrait{width:132px;height:132px;border-radius:50%;object-fit:cover;object-position:50% 18%;border:5px solid #fff;box-shadow:0 8px 24px rgba(34,29,32,.15)}
+.qs{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 4px}
+.qs span{background:#fff;border:1px solid var(--line);border-radius:16px 16px 16px 4px;padding:8px 13px;font-size:15px;color:var(--ink)}
+.intro-text p{margin-top:10px;max-width:40ch}
+
+/* indice */
+.toc{margin-top:34px;padding:22px 20px 10px}
+.toc h3{font-family:var(--serif);font-size:26px;font-weight:500;color:var(--ink);letter-spacing:-.02em;margin-bottom:6px}
+.toc ol{list-style:none}
+.toc li{break-inside:avoid;border-top:1px solid var(--line)}
+.toc li:first-child{border-top:0}
+.toc a{display:flex;align-items:baseline;gap:12px;padding:11px 0;text-decoration:none;color:var(--ink);font-weight:500}
+.toc .n{font-family:var(--serif);font-style:italic;font-weight:600;color:var(--rosa);font-size:20px;min-width:26px}
+.toc a::after{content:"→";margin-left:auto;color:var(--rosa)}
+.toc .star{font-size:12px;font-weight:700;color:#fff;background:var(--rosa);border-radius:99px;padding:2px 8px;margin-left:6px;align-self:center}
+@media(min-width:760px){.toc ol{columns:2;column-gap:40px}.toc li:nth-child(7){border-top:0}}
+
+/* ---------- IN BREVE ---------- */
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}
+@media(min-width:760px){.facts{grid-template-columns:repeat(3,1fr)}}
+.fact{padding:15px 14px 16px}
+.fact h4{font-family:var(--serif);font-weight:500;font-size:22px;color:var(--ink);letter-spacing:-.01em;line-height:1.05;margin-bottom:6px}
+.fact p{font-size:14.5px;line-height:1.4}
+.fact .big{font-family:var(--sans);font-weight:900;color:var(--rosa);font-size:20px;line-height:1.1;display:block;margin-bottom:4px;white-space:nowrap}
+
+/* ---------- QUANDO VENIRE ---------- */
+.months{margin-top:24px;padding:18px 16px 14px}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:13.5px;margin-bottom:12px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.m{display:grid;grid-template-columns:36px 1fr 108px;gap:10px;align-items:center;padding:6px 0;border-top:1px solid var(--line)}
+.m .ml{font-size:13px;color:var(--ink);line-height:1.15}
+.m:first-of-type{border-top:0}
+.m .mn{font-weight:700;color:var(--ink);font-size:15px}
+.m .bar{position:relative;height:26px;border-radius:8px;background:#F4F1EC;overflow:hidden}
+.m .bar i{position:absolute;inset:0 auto 0 0;border-radius:8px}
+.m .bar span{position:absolute;left:8px;top:50%;transform:translateY(-50%);font-size:13.5px;font-weight:700;color:#fff;white-space:nowrap}
+.c-top{background:var(--rosa)}.c-fresco{background:var(--blu)}.c-caldo{background:var(--arancio)}
+.seasons{display:grid;gap:12px;margin-top:16px}
+.season{padding:18px 18px 18px}
+.season h4{font-family:var(--serif);font-weight:500;font-size:24px;color:var(--ink);line-height:1.05;margin-bottom:6px}
+.season p+p{margin-top:6px}
+
+/* ---------- FAQ ---------- */
+.faq-photo{margin-top:24px;border-radius:var(--r);overflow:hidden;aspect-ratio:4/3;position:relative}
+.faq-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.faq-photo .badge{position:absolute;left:16px;bottom:14px;top:auto}
+.faq-photo .badge::after{display:none}
+.faqs{margin-top:14px;display:grid;gap:10px}
+details.faq{background:var(--card);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+details.faq summary{list-style:none;cursor:pointer;padding:16px 50px 16px 18px;font-family:var(--serif);font-size:21px;font-weight:500;color:var(--ink);line-height:1.15;position:relative}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::after{content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);width:28px;height:28px;border-radius:50%;background:var(--rosa-tint);color:var(--rosa);font-family:var(--sans);font-weight:700;font-size:20px;line-height:27px;text-align:center}
+details.faq[open] summary::after{content:"−"}
+details.faq .a{padding:0 18px 18px}
+details.faq .a p+p{margin-top:7px}
+
+/* ---------- DOVE DORMIRE ---------- */
+.zones{display:grid;gap:12px;margin-top:24px}
+@media(min-width:760px){.zones{grid-template-columns:1fr 1fr}}
+.zone{padding:18px}
+.zone .for{display:inline-block;font-family:var(--hand);color:var(--rosa);font-size:21px;line-height:1;margin-bottom:4px}
+.zone h4{font-family:var(--serif);font-weight:500;font-size:25px;color:var(--ink);line-height:1.05;margin-bottom:6px}
+.zone p{font-size:16px}
+
+.map-fig{margin-top:22px;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);background:#fff}
+.map-fig img{width:100%;height:auto}
+.map-fig figcaption{font-size:12.5px;color:var(--muted);padding:8px 14px 10px}
+.zone .num{display:inline-grid;place-content:center;width:24px;height:24px;border-radius:50%;background:var(--rosa);color:#fff;font-family:var(--sans);font-size:12px;font-weight:900;margin-right:8px;vertical-align:3px}
+a.gm{display:inline-block;margin-top:8px;font-size:13.5px;font-weight:700;color:var(--blu);text-decoration:none;border-bottom:1.5px solid rgba(34,124,192,.3)}
+a.ext{display:inline-flex;align-items:center;gap:6px;margin-top:12px;font-size:14px;font-weight:700;color:var(--ink);text-decoration:none;border:1.5px solid var(--ink);border-radius:99px;padding:8px 14px}
+a.ext.ig{border-color:var(--rosa);color:var(--rosa)}
+a.lk{color:var(--blu);font-weight:700;text-decoration:none;border-bottom:1.5px solid rgba(34,124,192,.3);white-space:nowrap}
+.app-row{display:grid;grid-template-columns:40px 1fr;gap:12px;padding:12px 0;border-top:1px solid var(--line);align-items:start}
+.app-row:first-of-type{border-top:0}
+.app-row .ico{width:40px;height:40px;border-radius:11px;display:grid;place-content:center;color:#fff;font-weight:900;font-size:18px}
+.app-row p{font-size:15px;line-height:1.4}
+.stores{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
+.stores a{font-size:12.5px;font-weight:700;text-decoration:none;color:#fff;background:var(--ink);border-radius:8px;padding:5px 10px}
+.stores a.and{background:#3B3638}
+/* ---------- MUOVERSI ---------- */
+.moves{display:grid;gap:12px;margin-top:24px}
+.move-i{padding:18px}
+.move-i h4{font-family:var(--serif);font-weight:500;font-size:23px;color:var(--ink);line-height:1.05;margin-bottom:6px}
+.apps{display:grid;gap:12px;margin-top:6px}
+@media(min-width:760px){.apps{grid-template-columns:1fr 1fr}}
+.app-g{padding:16px 18px}
+.app-g .kicker{margin-bottom:6px}
+.app-g ul{list-style:none}
+.app-g li{padding:7px 0;border-top:1px solid var(--line);font-size:15.5px}
+.app-g li:first-child{border-top:0}
+
+/* ---------- TOUR ---------- */
+.ticket{margin-top:26px;position:relative;background:var(--rosa);color:#fff;border-radius:var(--r);padding:24px 22px 22px;overflow:hidden}
+.ticket .lbl{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:13px;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
+.ticket .lbl b{font-size:15px;letter-spacing:0;background:#fff;color:var(--rosa);border-radius:99px;padding:5px 12px;font-weight:900}
+.ticket .code{font-family:var(--sans);font-weight:900;font-size:clamp(54px,17vw,84px);letter-spacing:.03em;line-height:1;margin:8px 0 12px}
+.ticket p{font-size:16px;line-height:1.4;max-width:34ch}
+.ticket .dash{position:relative;border-top:2px dashed rgba(255,255,255,.45);margin:18px 0}
+.ticket .dash::before,.ticket .dash::after{content:"";position:absolute;top:-14px;width:26px;height:26px;border-radius:50%;background:var(--paper)}
+.ticket .dash::before{left:-36px}.ticket .dash::after{right:-36px}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:54px;border-radius:99px;font-family:var(--sans);font-weight:700;font-size:16.5px;text-decoration:none;border:0;cursor:pointer;padding:0 22px;text-align:center;line-height:1.2}
+.btn svg{width:22px;height:22px;flex:none}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 6px 16px rgba(31,168,85,.28)}
+.btn-white{background:#fff;color:var(--rosa)}
+.btn-white svg{fill:var(--wa)}
+.btn-wa svg{fill:#fff}
+.btn-note{font-size:12.5px;text-align:center;margin-top:8px;opacity:.85}
+.pill{background:#fff;color:var(--wa);font-weight:900;font-size:13px;letter-spacing:.04em;border-radius:99px;padding:3px 9px}
+
+.chooser{margin-top:40px}
+.chooser h3{font-family:var(--serif);font-weight:500;font-size:30px;color:var(--ink);letter-spacing:-.02em;line-height:1.05}
+.chooser .hint{font-size:15px;color:var(--muted);margin-top:4px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:14px 18px 6px;margin:0 -18px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font-family:var(--sans);font-size:15px;font-weight:500;border:1.5px solid var(--ink);background:transparent;color:var(--ink);border-radius:99px;padding:9px 16px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff}
+.chip .c{opacity:.55;margin-left:4px;font-size:13px}
+
+.group{margin-top:34px}
+.group-h{display:flex;align-items:baseline;gap:12px;margin-bottom:14px}
+.group-h h3{font-family:var(--serif);font-size:34px;font-weight:500;color:var(--ink);letter-spacing:-.025em;line-height:1}
+.group-h .line{flex:1;border-top:1px solid #D7D2CB}
+.cards{display:grid;gap:18px;grid-template-columns:1fr}
+@media(min-width:700px){.cards{grid-template-columns:1fr 1fr}}
+@media(min-width:1020px){.cards{grid-template-columns:1fr 1fr 1fr}}
+.card{background:var(--card);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.card[hidden],.group[hidden]{display:none}
+.ph{position:relative;aspect-ratio:4/3;overflow:hidden;background:#ddd}
+.ph img{width:100%;height:100%;object-fit:cover}
+.badge{position:absolute;left:14px;top:12px;font-family:var(--hand);color:#fff;font-size:23px;line-height:1.05;max-width:70%;text-shadow:0 1px 2px rgba(0,0,0,.55),0 0 16px rgba(0,0,0,.45);transform:rotate(-3deg);transform-origin:left}
+.badge::after{content:"";display:block;width:34px;height:30px;margin-top:2px;background:url('assets/ui/freccia-riccio-giu-rosa.png') center/contain no-repeat}
+.body{padding:18px 18px 20px;display:flex;flex-direction:column;flex:1}
+.card h4{font-family:var(--serif);font-weight:500;color:var(--ink);font-size:27px;line-height:1.02;letter-spacing:-.02em}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 12px}
+.meta span{background:var(--blu-tint);color:var(--blu);font-size:13px;font-weight:700;border-radius:99px;padding:5px 10px;line-height:1.2}
+.txt{font-size:16px;line-height:1.45;flex:1}
+.txt p+p{margin-top:6px}
+.card .btn{margin-top:16px;min-height:50px;font-size:16px}
+
+.why{margin-top:44px;padding:24px 20px}
+.why h3{font-family:var(--serif);font-weight:500;font-size:30px;color:var(--ink);line-height:1.04;letter-spacing:-.02em}
+.why > p{margin-top:10px}
+ul.stars{list-style:none;margin:14px 0}
+ul.stars li{position:relative;padding:9px 0 9px 32px;border-top:1px solid var(--line)}
+ul.stars li:first-child{border-top:0}
+ul.stars li::before{content:"";position:absolute;left:0;top:11px;width:21px;height:21px;background:url('assets/ui/star.png') center/contain no-repeat}
+.quote{font-family:var(--serif);font-style:italic;font-size:22px;line-height:1.2;color:var(--ink);border-left:3px solid var(--rosa);padding-left:14px;margin:6px 0 18px}
+.proof{font-size:13.5px;color:var(--muted);margin-top:10px;text-align:center}
+
+/* ---------- ITINERARI ---------- */
+.tabs{display:flex;gap:8px;margin-top:22px}
+.tab{flex:1;font-family:var(--sans);font-weight:700;font-size:16px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);border-radius:14px;padding:12px 6px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--ink);color:#fff}
+.tab small{display:block;font-weight:500;font-size:12.5px;opacity:.7}
+.itin{margin-top:16px}
+.itin[hidden]{display:none}
+.itin-h{font-family:var(--serif);font-size:26px;color:var(--ink);font-weight:500;margin-bottom:12px;display:none}
+.day{display:grid;grid-template-columns:54px 1fr;gap:12px;padding:16px;margin-bottom:10px}
+.day .dn{font-family:var(--serif);font-style:italic;font-weight:600;color:var(--rosa);font-size:15px;line-height:1;text-align:center}
+.day .dn b{display:block;font-size:34px;color:var(--rosa);font-weight:600}
+.day h4{font-family:var(--serif);font-weight:500;font-size:22px;color:var(--ink);line-height:1.05;margin-bottom:6px}
+.day ul{list-style:none}
+.day li{font-size:15.5px;padding:3px 0}
+.day li i{font-style:normal;font-weight:700;color:var(--blu);font-size:12.5px;text-transform:uppercase;letter-spacing:.05em;margin-right:6px}
+a.tl{color:var(--wa);font-weight:700;text-decoration:none;border-bottom:1.5px solid rgba(31,168,85,.35)}
+a.tl svg{width:15px;height:15px;fill:var(--wa);vertical-align:-2px;margin-right:4px}
+.itin .btn{margin-top:6px}
+
+/* ---------- GRATIS ---------- */
+.free{display:grid;gap:10px;margin-top:22px}
+@media(min-width:760px){.free{grid-template-columns:1fr 1fr}}
+.free-i{display:grid;grid-template-columns:auto 1fr;gap:12px;padding:16px 18px;align-items:start}
+.free-i .tag{font-size:12px;font-weight:900;letter-spacing:.05em;text-transform:uppercase;border-radius:99px;padding:4px 9px;margin-top:3px;white-space:nowrap}
+.free-i .tag.g{background:var(--rosa-tint);color:var(--rosa)}
+.free-i .tag.q{background:var(--blu-tint);color:var(--blu)}
+.free-i h4{font-family:var(--serif);font-weight:500;font-size:21px;color:var(--ink);line-height:1.1;margin-bottom:3px}
+.free-i p{font-size:15.5px}
+
+/* ---------- POSTI ---------- */
+.places{display:grid;gap:18px;margin-top:22px}
+@media(min-width:700px){.places{grid-template-columns:1fr 1fr}}
+.shop{padding:18px 18px 8px;margin-top:14px}
+.shop li{list-style:none;padding:9px 0;border-top:1px solid var(--line)}
+.shop li:first-child{border-top:0}
+.todo{border:2px dashed #D3CDC6;border-radius:var(--r);padding:18px;color:#9C9497;background:rgba(255,255,255,.4);margin-top:14px;font-size:15px}
+.todo b{color:var(--ink)}
+
+/* ---------- STAGIONE ---------- */
+.season-hero{margin-top:24px;border-radius:var(--r);overflow:hidden;position:relative;aspect-ratio:4/5;max-height:620px}
+.season-hero img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.events{display:grid;gap:12px;margin-top:14px}
+@media(min-width:760px){.events{grid-template-columns:1fr 1fr}}
+.event{padding:18px}
+.event .when{display:inline-block;font-size:12.5px;font-weight:900;letter-spacing:.05em;text-transform:uppercase;color:var(--rosa);background:var(--rosa-tint);border-radius:99px;padding:4px 10px;margin-bottom:8px}
+.event h4{font-family:var(--serif);font-weight:500;font-size:23px;color:var(--ink);line-height:1.05;margin-bottom:6px}
+.event p+p{margin-top:5px}
+.nye{display:grid;grid-template-columns:1fr;overflow:hidden;padding:0}
+.nye img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 40%}
+@media(min-width:700px){.nye{grid-template-columns:300px 1fr}.nye img{height:100%;aspect-ratio:auto}}
+.nye .in{padding:18px}
+
+/* ---------- TRASFERIRSI ---------- */
+.dark{background:var(--ink);color:#EDE9E6;border-radius:var(--r);padding:30px 22px 24px}
+.dark .kicker{color:#A6D2F2}
+.dark h2{color:#fff}
+.dark h2 em{color:#F06AA6}
+.dark .lead{color:#EDE9E6}
+.dark b{color:#fff}
+.live{display:grid;gap:10px;margin-top:22px}
+.live > div{border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:14px 16px}
+.live h4{font-family:var(--serif);font-weight:500;font-size:21px;color:#fff;margin-bottom:4px}
+.live p{font-size:15.5px;color:#D9D3D6}
+.live .warn{border-color:rgba(240,106,166,.55);background:rgba(205,36,113,.12)}
+.dark .btn{margin-top:22px}
+.dark .small{font-size:12.5px;color:#A49DA0;margin-top:12px}
+
+/* ---------- CHECKLIST ---------- */
+.check{margin-top:22px;padding:8px 18px}
+.check label{display:grid;grid-template-columns:30px 1fr;gap:12px;align-items:start;padding:13px 0;border-top:1px solid var(--line);cursor:pointer}
+.check label:first-child{border-top:0}
+.check input{appearance:none;-webkit-appearance:none;width:26px;height:26px;border-radius:50%;border:2px solid var(--rosa);margin-top:1px;display:grid;place-content:center;cursor:pointer;background:#fff}
+.check input:checked{background:var(--rosa)}
+.check input:checked::after{content:"";width:8px;height:13px;border:solid #fff;border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.check input:checked + span{color:var(--muted);text-decoration:line-through;text-decoration-color:rgba(205,36,113,.5)}
+.check span{font-size:16px}
+.progress{font-size:14px;color:var(--muted);margin-top:10px;text-align:right}
+
+/* ---------- CHIUSURA ---------- */
+.end{position:relative;color:#fff;border-radius:var(--r);overflow:hidden;background:var(--ink);max-width:620px;margin:0 auto}
+.end img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 25%}
+.end-in{position:relative;z-index:2;padding:90px 22px 26px;margin-top:-90px;background:linear-gradient(180deg,rgba(34,29,32,0) 0,var(--ink) 88px)}
+.end-in p.big{font-family:var(--serif);font-size:28px;line-height:1.1;letter-spacing:-.02em}
+.end-in p.big em{color:#F06AA6;font-weight:600}
+.end-actions{display:grid;gap:10px;margin-top:20px}
+.btn-ghost{background:rgba(255,255,255,.14);color:#fff;border:1.5px solid rgba(255,255,255,.6)}
+.disclosure{font-size:13px;color:var(--muted);text-align:center;max-width:44ch;margin:22px auto 0;line-height:1.45}
+footer{padding:20px 0 120px;text-align:center;font-size:13px;color:var(--muted)}
+
+/* ---------- BARRA FISSA ---------- */
+.sticky{position:fixed;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));z-index:20;display:flex;align-items:center;gap:10px;background:#fff;border-radius:99px;padding:7px 7px 7px 18px;box-shadow:0 10px 30px rgba(34,29,32,.22);transform:translateY(140%);transition:transform .35s ease;max-width:560px;margin:0 auto}
+.sticky.on{transform:none}
+.sticky .t{flex:1;font-size:14px;line-height:1.2;color:var(--ink)}
+.sticky .t b{color:var(--rosa);font-weight:900;letter-spacing:.03em}
+.sticky .btn{width:auto;min-height:44px;font-size:14.5px;padding:0 16px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sticky{transition:none}}
+
+/* ---------- VERSIONE PDF ---------- */
+@page{size:150mm 290mm;margin:0}
+.pdf .draft,.pdf .sticky,.pdf .chooser .chips,.pdf .chooser .hint,.pdf .tabs,.pdf .scroll-cue,.pdf .progress,.pdf #share,.pdf #dl{display:none!important}
+.pdf .hero{height:1096px;max-height:none;min-height:0}
+.pdf .cards,.pdf .zones,.pdf .apps,.pdf .free,.pdf .events,.pdf .places,.pdf .moves,.pdf .seasons,.pdf .faqs{display:block}
+.pdf .cards > *,.pdf .zones > *,.pdf .apps > *,.pdf .free > *,.pdf .events > *,.pdf .places > *,.pdf .moves > *,.pdf .seasons > *,.pdf .faqs > *{margin-bottom:12px}
+.pdf .toc{break-inside:avoid}
+.pdf .toc ol{columns:1}
+.pdf .ph{aspect-ratio:21/9}
+.pdf .card .btn{min-height:46px}
+.pdf .itin{display:block!important}
+.pdf .itin-h{display:block}
+.pdf section{padding:40px 0}
+.pdf .card,.pdf .fact,.pdf .season,.pdf details.faq,.pdf .zone,.pdf .move-i,.pdf .app-g,.pdf .day,.pdf .free-i,.pdf .event,.pdf .live > div,.pdf .why,.pdf .ticket,.pdf .months,.pdf .check label,.pdf .faq-photo,.pdf .season-hero,.pdf .end{break-inside:avoid}
+.pdf h2,.pdf h3,.pdf .kicker,.pdf .group-h{break-after:avoid}
+.pdf .section-break{break-before:page}
+.pdf footer{display:none}
+</style>
+</head>
+<body>
+
+
+<!-- COPERTINA -->
+<header class="hero">
+  <img src="assets/img/cover.jpg" alt="Gemma davanti al Burj Khalifa">
+  <div class="hero-top">
+    <h1><span class="a">Ti porto a</span><span class="b">Dubai</span></h1>
+  </div>
+  <div class="hero-bottom">
+    <div class="hand-w">edizione 2026/27 <img src="assets/ui/freccia-riccio-giu-rosa.png" alt=""></div>
+    <p>La guida di chi ci vive da 4 anni: tutto quello che mi chiedete nei DM</p>
+    <a class="scroll-cue" href="#ciao"><span>↓</span> Inizia</a>
+  </div>
+</header>
+
+<main>
+<!-- INTRO -->
+<section id="ciao" class="section-break">
+  <div class="wrap">
+    <div class="intro">
+      <img class="portrait" src="assets/img/gemma-ritratto.jpg" alt="Gemma">
+      <div class="intro-text">
+        <div class="kicker">Benvenuta, benvenuto</div>
+        <h2>Ciao, sono <em>Gemma!</em></h2>
+        <p>Vivo a Dubai da 4 anni e ogni giorno mi arrivano le stesse domande:</p>
+        <div class="qs"><span>Quando è meglio venire?</span><span>Che vestiti porto?</span><span>Si può bere alcol?</span><span>Posso girare in top e gonna?</span></div>
+        <p>Così ho messo tutto qui: risposte chiare, consigli pratici e i contatti di cui mi fido</p>
+        <p>Non è la classica guida piena di informazioni generiche: ci sono i posti che amo e le cose che consiglio davvero a chi mi scrive</p>
+      </div>
+    </div>
+
+    <nav class="toc box" aria-label="Indice">
+      <h3>In questa guida</h3>
+      <ol>
+        <li><a href="#breve"><span class="n">1</span>Dubai in breve</a></li>
+        <li><a href="#quando"><span class="n">2</span>Quando venire</a></li>
+        <li><a href="#domande"><span class="n">3</span>Le domande che mi fate sempre</a></li>
+        <li><a href="#dormire"><span class="n">4</span>Dove dormire</a></li>
+        <li><a href="#muoversi"><span class="n">5</span>Come muoversi e app</a></li>
+        <li><a href="#tour"><span class="n">6</span>I tour<span class="star">-10%</span></a></li>
+        <li><a href="#itinerari"><span class="n">7</span>Itinerari da 3, 5 e 7 giorni</a></li>
+        <li><a href="#gratis"><span class="n">8</span>Dubai gratis o quasi</a></li>
+        <li><a href="#posti"><span class="n">9</span>Shopping e i miei posti</a></li>
+        <li><a href="#stagione"><span class="n">10</span>Speciale stagione 2026/27</a></li>
+        <li><a href="#trasferirsi"><span class="n">11</span>Trasferirsi e investire</a></li>
+        <li><a href="#checklist"><span class="n">12</span>Checklist prima di partire</a></li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<!-- 1 IN BREVE -->
+<section id="breve" class="section-break">
+  <div class="wrap">
+    <div class="kicker">1 · Quello che devi sapere</div>
+    <h2>Dubai <em>in breve</em></h2>
+    <div class="lead"><p>La città dei contrasti: deserto e grattacieli, lusso e semplicità, tradizione e futuro</p></div>
+    <div class="facts">
+      <div class="fact box"><h4>Sicurezza</h4><p>Una delle città più sicure al mondo: dimentichi la borsa sul tavolo e la ritrovi lì</p></div>
+      <div class="fact box"><h4>Multiculturale</h4><p>Oltre il 90% di chi ci vive è expat: trovi persone da ogni parte del mondo</p></div>
+      <div class="fact box"><h4>Lingua</h4><p>Ufficiale l’arabo, ma parliamo tutti inglese (con accenti abbastanza strani)</p></div>
+      <div class="fact box"><h4>Moneta</h4><p><span class="big">1€ ≈ 4,2 AED</span>Il dirham: io a mente divido per 4 · carta ovunque, anche per 1 dirham</p></div>
+      <div class="fact box"><h4>Fuso orario</h4><p><span class="big">+3 o +2 ore</span>+3 d’inverno, +2 d’estate rispetto all’Italia</p></div>
+      <div class="fact box"><h4>Weekend</h4><p><span class="big">sab e dom</span>Come da noi: il venerdì è un giorno normale</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 QUANDO VENIRE -->
+<section id="quando" class="section-break" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">2 · Il periodo giusto</div>
+    <h2>Quando <em>venire</em></h2>
+    <div class="months box">
+      <div class="legend"><span><i class="c-top"></i>il mio periodo</span><span><i class="c-fresco"></i>fresco</span><span><i class="c-caldo"></i>caldo forte</span></div>
+      <div id="months"></div>
+      <p class="note">Temperature massime medie, indicative</p>
+    </div>
+    <div class="seasons">
+      <div class="season box"><h4>Ottobre-aprile · <em>alta stagione</em></h4><p>Clima ideale, spiagge vivibili e serate all’aperto</p><p>È anche il periodo con più eventi, fiere e concerti</p><p>Gennaio e febbraio personalmente li sconsiglio: fa freschino e a volte è nuvoloso (al mare ci vai lo stesso, eh)</p></div>
+      <div class="season box"><h4>Maggio-settembre · <em>estate</em></h4><p>Caldo forte, oltre 40°, ma gli hotel costano molto meno</p><p>La città è climatizzata ovunque, anche alle fermate dei bus! Ottimo periodo per vivere Dubai più da local e con meno turisti</p><p>Portati sempre una felpa: dentro i locali si gela</p></div>
+      <div class="season box"><h4>Ramadan 2027 · <em>da considerare</em></h4><p>Circa dall’8 febbraio al 9 marzo 2027 (le date esatte dipendono dalla luna)</p><p>Dubai non si ferma: di giorno qualche ristorante chiude e non c’è musica alta, dopo il tramonto la città si anima con gli iftar</p><p>Sinceramente quasi non te ne accorgi: l’unica cosa che me lo ricorda è che non c’è la musica in palestra 😅</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3 DOMANDE -->
+<section id="domande" class="section-break" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">3 · Sfatiamo i miti</div>
+    <h2>Le domande che mi <em>fate sempre</em></h2>
+    <div class="lead"><p>Dubai è molto più libera di come viene raccontata</p></div>
+    <div class="faq-photo"><img src="assets/img/abbigliamento.jpg" alt="Gemma con il velo alla Moschea Sheikh Zayed" loading="lazy"><div class="badge">in moschea sì, in città no</div></div>
+    <div class="faqs">
+      <details class="faq"><summary>Si può bere alcol?</summary><div class="a">
+        <p>Sì, nei locali con licenza: hotel, ristoranti, bar e beach club, dai 21 anni in su</p>
+        <p>Puoi anche comprarlo nei negozi autorizzati (MMI, African + Eastern) mostrando il passaporto</p>
+        <p>Vietato bere in strada, ubriacarsi in pubblico e guidare dopo aver bevuto: lì la tolleranza è zero</p></div></details>
+      <details class="faq"><summary>Posso girare in top e gonna?</summary><div class="a">
+        <p><b>In città</b> abiti normali: gonne, pantaloncini, vestiti leggeri</p>
+        <p><b>Spiaggia e piscina</b> costume e bikini, come ovunque</p>
+        <p><b>Nelle moschee</b> ci si copre: spalle, gambe e, per le donne, capelli</p><p>Alla Moschea di Abu Dhabi l’abaya la compri anche lì fuori</p>
+        <p>Consiglio pratico: porta sempre un foulard o una giacchina, più che per la cultura… per l’aria condizionata che NON SOPPORTO ed è gelida!</p></div></details>
+      <details class="faq"><summary>In coppia: mano nella mano, baci, stessa camera?</summary><div class="a">
+        <p>Tenersi per mano va benissimo, baci ed effusioni in pubblico meglio evitarli</p>
+        <p>Le coppie non sposate possono stare nella stessa camera senza problemi</p></div></details>
+      <details class="faq"><summary>Una donna da sola è al sicuro?</summary><div class="a">
+        <p>Sì, è una delle città più sicure al mondo e io qui mi sento più tranquilla che in tante città italiane</p>
+        <p>In metro c’è la carrozza riservata a donne e bambini, e ci sono i taxi col tetto rosa guidati da donne</p></div></details>
+      <details class="faq"><summary>Contanti o carta? E le mance?</summary><div class="a">
+        <p>Carta ovunque, anche per 1 dirham: i contanti non servono quasi mai</p>
+        <p>Le mance non sono obbligatorie: al ristorante, se ti sei trovata bene e il servizio non è già incluso, si lascia intorno al 10%</p></div></details>
+      <details class="faq"><summary>Posso fare foto ovunque?</summary><div class="a">
+        <p>Ai posti sì, alle persone no, se non te lo permettono: soprattutto donne e famiglie del posto</p>
+        <p>La privacy qui è legge e le multe sono alte</p></div></details>
+      <details class="faq"><summary>Posso portare le mie medicine?</summary><div class="a">
+        <p>Quelle normali sì, ma alcuni farmaci (per esempio con codeina, alcuni ansiolitici e sonniferi) qui sono controllati</p>
+        <p>Portali nella confezione originale con la ricetta e, se hai dubbi, controlla prima sul sito del Ministero della Salute degli Emirati</p></div></details>
+      <details class="faq"><summary>Serve il visto?</summary><div class="a">
+        <p>Per gli italiani il visto turistico si fa direttamente all’arrivo, gratis</p>
+        <p>Ti serve solo il passaporto con almeno 6 mesi di validità</p></div></details>
+      <details class="faq"><summary>Esiste il tax free?</summary><div class="a">
+        <p>Sì: negli acquisti dei negozi aderenti puoi farti rimborsare l’IVA del 5% in aeroporto prima di partire</p>
+        <p>Chiedi il tax free in cassa e tieni lo scontrino</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 4 DOVE DORMIRE -->
+<section id="dormire" class="section-break" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">4 · Scegli la zona</div>
+    <h2>Dove <em>dormire</em></h2>
+    <div class="lead"><p>Dubai è enorme e gli spostamenti si fanno in taxi: la zona cambia la vacanza</p></div>
+    <figure class="map-fig"><a href="assets/img/mappa-dubai.png" target="_blank" rel="noopener"><img src="assets/img/mappa-dubai.png" alt="Mappa di Dubai con le 6 zone numerate" loading="lazy" width="1360" height="1046"></a><figcaption>Tocca la mappa per ingrandirla · i numeri sono le zone qui sotto</figcaption></figure>
+    <div class="zones" id="zones"></div>
+  </div>
+</section>
+
+<!-- 5 MUOVERSI -->
+<section id="muoversi" class="section-break" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">5 · Spostamenti e app</div>
+    <h2>Come <em>muoversi</em></h2>
+    <div class="moves">
+      <div class="move-i box"><h4>Dall’aeroporto</h4><p>Metro linea rossa (terminal 1 e 3) se hai poco bagaglio, altrimenti taxi, Careem o Uber</p></div>
+      <div class="move-i box"><h4>Metro e tram</h4><p>Pulitissima e comoda, si paga con la Nol Card, che compri in stazione</p><p>C’è la carrozza Gold (prima classe) e quella per donne e bambini</p></div>
+      <div class="move-i box"><h4>Taxi e app</h4><p>Il modo più comodo</p><p>Su Careem prendi <b>HALA Taxi</b>, il meno costoso</p></div>
+    </div>
+    <h3 class="sub">Le app da <em>scaricare</em></h3>
+    <div class="apps" id="apps"></div>
+  </div>
+</section>
+
+<!-- 6 TOUR -->
+<section id="tour" class="section-break" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">6 · I tour che consiglio davvero</div>
+    <h2>Dubai <em>(e dintorni)</em> con il 10% di sconto</h2>
+    <div class="lead"><p>Li ho provati io, uno per uno</p><p>Li prenoti tutti con Giorgia di Explora Mondo, che ti segue in italiano e ti consiglia quelli giusti per te</p></div>
+
+    <div class="ticket">
+      <div class="lbl">Il tuo codice sconto <b>-10%</b></div>
+      <div class="code">GEMMA</div>
+      <p>Scrivi a Giorgia su WhatsApp e dille che arrivi dalla mia guida: il messaggio è già pronto, devi solo premere invia</p>
+      <div class="dash"></div>
+      <a class="btn btn-white" data-wa="giorgia" data-topic="i tour a Dubai" href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Scrivi a Giorgia <span class="pill" style="color:var(--rosa);background:var(--rosa-tint)">GEMMA</span></a>
+      <div class="btn-note">+39 389 465 9385 · si apre WhatsApp</div>
+    </div>
+
+    <div class="chooser">
+      <h3>Quale tour fa <em>per te?</em></h3>
+      <p class="hint">Tocca quello che ti somiglia di più</p>
+      <div class="chips" role="group" aria-label="Filtra i tour"></div>
+    </div>
+
+    <div id="groups"></div>
+
+    <div class="why box">
+      <h3>Perché con i tour non <em>improvviso mai</em></h3>
+      <p>Dubai è sicurissima, ma su tour, safari ed escursioni la qualità fa tutta la differenza</p>
+      <ul class="stars">
+        <li>Auto assicurate e guide certificate, niente mezzi improvvisati</li>
+        <li>Ingressi gestiti in anticipo: niente code infinite</li>
+        <li>Nei safari posti selezionati e cene di qualità, non campi tendati affollati</li>
+        <li>Parlando con Giorgia capisci cosa fa davvero per te, anche se avevi in testa altro</li>
+      </ul>
+      <p class="quote">Il tuo tempo a Dubai è limitato: meglio viverlo bene che risparmiare 20€ e trovarsi male</p>
+      <a class="btn btn-wa" data-wa="giorgia" data-topic="i tour a Dubai" href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Chiedi a Giorgia <span class="pill">GEMMA</span></a>
+      <p class="proof">Explora Mondo ha 4,9 su 5 su Trustpilot</p>
+    </div>
+  </div>
+</section>
+
+<!-- 7 ITINERARI -->
+<section id="itinerari" class="section-break" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">7 · Copia e parti</div>
+    <h2>Itinerari <em>pronti</em></h2>
+    <div class="lead"><p>Giorno per giorno, già testati</p><p>I tour in verde li prenoti con un tocco, con il codice GEMMA</p></div>
+    <div class="tabs" role="tablist"></div>
+    <div id="itins"></div>
+  </div>
+</section>
+
+<!-- 8 GRATIS -->
+<section id="gratis" class="section-break" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">8 · Non tutto costa</div>
+    <h2>Dubai <em>gratis</em> o quasi</h2>
+    <div class="free">
+      <div class="free-i box"><span class="tag g">Gratis</span><div><h4>Le fontane del Dubai Mall</h4><p>Lo spettacolo d’acqua sotto il Burj Khalifa, la sera ogni mezz’ora</p></div></div>
+      <div class="free-i box"><span class="tag g">Gratis</span><div><h4>Al Fahidi e Al Seef</h4><p>Le viuzze della Dubai vecchia, le torri del vento e il lungo Creek a piedi</p></div></div>
+      <div class="free-i box"><span class="tag g">Gratis</span><div><h4>Souk dell’oro e delle spezie</h4><p>A Deira, per un tuffo nella tradizione (comprare è un’altra storia)</p></div></div>
+      <div class="free-i box"><span class="tag q">Quasi</span><div><h4>L’Abra sul Creek</h4><p>La barchetta di legno che attraversa il Creek per pochi dirham</p></div></div>
+      <div class="free-i box"><span class="tag g">Gratis</span><div><h4>Le spiagge pubbliche</h4><p>JBR, Kite Beach con vista Burj Al Arab, La Mer</p></div></div>
+      <div class="free-i box"><span class="tag g">Gratis</span><div><h4>Dubai Marina Walk</h4><p>La passeggiata tra i grattacieli, bellissima al tramonto</p></div></div>
+      <div class="free-i box"><span class="tag g">Gratis</span><div><h4>Alserkal Avenue</h4><p>Gallerie d’arte, caffè e concept store in un ex quartiere industriale · <a class="lk" data-link="alserkal" href="#">sito ↗</a></p></div></div>
+      <div class="free-i box"><span class="tag g">Gratis</span><div><h4>Moschea Sheikh Zayed</h4><p>Ad Abu Dhabi: l’ingresso è gratuito, si prenota online · <a class="lk" data-link="moschea" href="#">prenota ↗</a></p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 9 POSTI -->
+<section id="posti" class="section-break" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">9 · Quelli che amo</div>
+    <h2>Shopping e <em>i miei posti</em></h2>
+    <div class="places">
+      <article class="card"><div class="ph"><img src="assets/img/casa-vitti.jpg" alt="Casa Habibti" loading="lazy" style="object-position:50% 40%"></div><div class="body"><h4>Casa <em>Habibti</em></h4><div class="meta"><span>Unghie, ciglia, beauty</span></div><div class="txt"><p>Il posto giusto per unghie, ciglia e trattamenti beauty (prima si chiamava Ustinia)</p><p>Moderno, pulitissimo e con standard altissimi: perfetto per regalarti un pomeriggio di relax e uscire con un look impeccabile</p><p>Scrivigli su Instagram e digli che arrivi dalla mia guida</p></div><a class="ext ig" data-link="casaHabibti" href="#">Instagram @casahabibti ↗</a></div></article>
+      <article class="card"><div class="ph"><img src="assets/img/global-village.jpg" alt="Global Village" loading="lazy" style="object-position:50% 45%"></div><div class="body"><h4>Global <em>Village</em></h4><div class="meta"><span>Dal 14 ottobre a maggio</span><span>La sera</span></div><div class="txt"><p>Un parco stagionale con oltre 90 culture in padiglioni a tema: shopping, cibo da tutto il mondo e spettacoli</p><p>Un giro del mondo in una sera sola</p></div><a class="ext" data-link="globalVillage" href="#">Sito ufficiale ↗</a></div></article>
+      <article class="card"><div class="ph"><img src="assets/img/aquaventure.jpg" alt="Aquaventure" loading="lazy" style="object-position:50% 40%"></div><div class="body"><h4><em>Aquaventure</em></h4><div class="meta"><span>Atlantis The Palm</span><span>Tutto il giorno</span></div><div class="txt"><p>Il parco acquatico gigante dell’Atlantis: oltre 100 scivoli, attrazioni adrenaliniche, spiaggia privata e zone relax</p></div><a class="ext" data-link="aquaventure" href="#">Sito ufficiale ↗</a></div></article>
+    </div>
+    <h3 class="sub">Lo <em>shopping</em></h3>
+    <ul class="shop box">
+      <li><b>Dubai Mall</b> · il più grande del mondo, c’è perfino la pista di pattinaggio</li>
+      <li><b>Mall of the Emirates</b> · quello con Ski Dubai, la pista da sci al chiuso</li>
+      <li><b>Souk Madinat Jumeirah</b> · atmosfera tipica e vista sul Burj Al Arab</li>
+      <li><b>Mercati dell’oro e delle spezie a Deira</b> · per un tuffo nella tradizione</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 10 STAGIONE -->
+<section id="stagione" class="section-break" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">10 · Aggiornata a ottobre 2026</div>
+    <h2>Speciale <em>stagione 2026/27</em></h2>
+    <div class="events">
+      <div class="event box"><span class="when">dal 14 ottobre</span><h4>Riapre il Global Village</h4><p>Stagione 31, fino a maggio 2027</p><p>Dal lunedì al giovedì 16-24, nel weekend fino all’1 · <a class="lk" data-link="globalVillage" href="#">sito ↗</a></p></div>
+      <div class="event box"><span class="when">dicembre</span><h4>Mercatini a Madinat Jumeirah</h4><p>Canali illuminati, albero gigante, bancarelle e musica dal vivo con il Burj Al Arab sullo sfondo</p><p>Vai al tramonto per goderti luci e panorama · <a class="lk" data-link="madinat" href="#">sito ↗</a></p></div>
+      <div class="event box"><span class="when">dicembre</span><h4>Winter City a Expo City</h4><p>Un villaggio di Natale nel deserto: luci, spettacoli e attività per grandi e piccoli (puoi persino imbucare la letterina!)</p><p>Ti consiglio lo spettacolo Carols by Candlelight · <a class="lk" data-link="expoCity" href="#">sito ↗</a></p></div>
+      <div class="event box"><span class="when">sotto le feste</span><h4>I droni a JBR e Bluewaters</h4><p>Ogni sera il cielo sul mare si illumina con coreografie di droni e musica</p><p>Ed è gratis</p></div>
+    </div>
+    <div class="event box nye" style="margin-top:12px">
+      <img src="assets/img/lucias.jpg" alt="Lucia’s sotto il Burj Al Arab illuminato" loading="lazy" style="object-position:50% 35%">
+      <div class="in"><span class="when">Natale e Capodanno</span><h4>Le feste <em>da Lucia’s</em></h4><p>Festeggiare al Burj Khalifa è bellissimo solo nei video: nella realtà è carissimo, pienissimo di gente, il traffico è paralizzato e resti bloccata lì per ore</p><p>Noi abbiamo scelto Lucia’s, il ristorante italiano sotto il Burj Al Arab: i fuochi, un’atmosfera stupenda e un cibo pazzesco, come essere a casa</p><p>Per prenotare Natale o Capodanno scrivimi, ci penso io: i posti finiscono presto</p>
+      <a class="btn btn-wa" data-wa="gemma" data-topic="prenotare Natale o Capodanno da Lucia’s" href="#" style="margin-top:14px"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Per prenotare contattami qui</a>
+      <div class="btn-note" style="color:var(--muted)">+971 58 364 4458 · si apre WhatsApp</div></div>
+    </div>
+    <p class="note">Le date degli eventi di dicembre le confermano gli organizzatori più avanti: le aggiorno qui appena escono</p>
+  </div>
+</section>
+
+<!-- 11 TRASFERIRSI -->
+<section id="trasferirsi" class="section-break" style="padding-top:0">
+  <div class="wrap">
+    <div class="dark">
+      <div class="kicker">11 · Stai pensando di restare?</div>
+      <h2>Vivere, lavorare e <em>investire</em> a Dubai</h2>
+      <div class="lead"><p>Sempre più persone scelgono di trasferirsi qui, attratte da tasse basse e opportunità</p><p>Dopo i tour, sono le domande che mi arrivano di più</p></div>
+      <div class="live">
+        <div><h4>Residenza</h4><p>La ottieni con un lavoro, aprendo una società o comprando casa</p></div>
+        <div><h4>Aprire una società</h4><p>Semplice e veloce, soprattutto nelle free zone, dove hai il 100% senza socio locale (la mia è in free zone)</p></div>
+        <div><h4>Tasse</h4><p>Niente tasse sul reddito delle persone, le società pagano il 9% solo sopra i 375.000 AED di utile</p></div>
+        <div><h4>Settori in crescita</h4><p>Turismo, tech, digitale, immobiliare, luxury e wellness</p></div>
+        <div><h4>Investire nel mattone</h4><p>Zero tasse sugli affitti, rendimenti spesso tra il 6 e l’8% lordo l’anno e tanta richiesta di affitti</p></div>
+        <div class="warn"><h4>Se crei contenuti</h4><p>Dal 1° febbraio 2026 per fare pubblicità sui social dagli Emirati serve l’<b>Advertiser Permit</b> del Media Council: vale anche se il tuo pubblico è italiano, anche se ti pagano in prodotti o viaggi, e anche per chi è qui solo in visita (tramite un’agenzia con licenza)</p><p>Senza, le multe arrivano fino a 1 milione di dirham</p></div>
+      </div>
+      <a class="btn btn-wa" data-wa="gemma" data-topic="trasferirmi, aprire una società o investire a Dubai" href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Per queste informazioni contattami qui</a>
+      <div class="btn-note" style="color:#A49DA0">+971 58 364 4458 · ti dico come muoverti e con chi</div>
+      <p class="small">Sono informazioni generali aggiornate a ottobre 2026, non una consulenza legale o fiscale</p>
+    </div>
+  </div>
+</section>
+
+<!-- 12 CHECKLIST -->
+<section id="checklist" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">12 · Prima di partire</div>
+    <h2>La <em>checklist</em></h2>
+    <div class="lead"><p>Spunta man mano: la pagina se lo ricorda</p></div>
+    <div class="check box" id="check"></div>
+    <p class="progress" id="progress"></p>
+  </div>
+</section>
+
+<!-- CHIUSURA -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="end">
+      <img src="assets/img/gemma-deserto.jpg" alt="Gemma nel deserto" loading="lazy">
+      <div class="end-in">
+        <p class="big">Dubai ti sorprende ogni giorno: che tu venga per una settimana o per restare, qui puoi costruire <em>un pezzo di futuro</em></p>
+        <div class="end-actions">
+          <button class="btn btn-white" id="share" type="button">Condividila con chi sta pensando di venire</button>
+          <a class="btn btn-ghost" href="https://www.instagram.com/gemmalenoci/" target="_blank" rel="noopener">Scrivimi su Instagram @gemmalenoci</a>
+          <a class="btn btn-ghost" id="dl" href="guida-dubai-gemma.pdf" download>Scarica la guida in PDF</a>
+        </div>
+      </div>
+    </div>
+    <p class="disclosure">Con il codice GEMMA sui tour hai il 10% di sconto e, come per Lucia’s, io ricevo una piccola commissione: a te non costa nulla in più</p>
+  </div>
+</section>
+</main>
+
+<footer>© Gemma Lenoci · guida aggiornata a ottobre 2026</footer>
+
+<div class="sticky" id="sticky" aria-hidden="true">
+  <div class="t">Tour con il 10%<br>codice <b>GEMMA</b></div>
+  <a class="btn btn-wa" data-wa="giorgia" data-topic="i tour a Dubai" href="#" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Scrivi a Giorgia</a>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="wa" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35M12.05 21.78h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45h.01c6.55 0 11.89-5.34 11.89-11.9 0-3.17-1.24-6.16-3.49-8.41"/></symbol></svg>
+
+<script src="assets/dati.js?v=20261007d"></script>
+<script>
+/* ===== da qui in giù non serve toccare ===== */
+const PDF = /[?&]pdf\b/.test(location.search);
+if (PDF) document.documentElement.classList.add('pdf');
+
+function waLink(chi, argomento){
+  const c = CONTATTI[chi];
+  return 'https://wa.me/' + c.numero + '?text=' + encodeURIComponent(c.saluto + '\n' + c.chiedo + argomento);
+}
+const waIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>';
+const esc = s => s.replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const tourLinks = s => s.replace(/\[tour:([^\]]+)\]/g, (_, n) => {
+  const label = n === 'i tour a Dubai' ? 'scrivi a Giorgia' : n.replace(' (tour privato)', '').replace('Tour privato in yacht', 'yacht privato').replace('Horse riding nel deserto o in spiaggia', 'cavallo').replace('Tour Premium ', '');
+  return `<a class="tl" href="${waLink('giorgia', n)}" target="_blank" rel="noopener">${waIcon}${label}</a>`;
+});
+
+/* tour */
+document.getElementById('groups').innerHTML = GRUPPI.map(([id, titolo]) => `
+  <div class="group" data-g="${id}">
+    <div class="group-h"><h3>${titolo}</h3><span class="line"></span></div>
+    <div class="cards">
+      ${TOUR.filter(x => x.g === id).map(x => `
+        <article class="card" data-tag="${x.tag.join(' ')}">
+          <div class="ph"><img src="assets/img/${x.img}.jpg" alt="${esc(x.nome)}" loading="${PDF ? 'eager' : 'lazy'}" style="object-position:${x.pos}">${x.badge ? `<div class="badge">${x.badge}</div>` : ''}</div>
+          <div class="body">
+            <h4>${x.t}</h4>
+            <div class="meta">${x.meta.map(m => `<span>${m}</span>`).join('')}</div>
+            <div class="txt">${x.txt.map(p => `<p>${p}</p>`).join('')}</div>
+            <a class="btn btn-wa" href="${waLink('giorgia', x.nome)}" target="_blank" rel="noopener">${waIcon}Chiedi a Giorgia <span class="pill">GEMMA</span></a>
+          </div>
+        </article>`).join('')}
+    </div>
+  </div>`).join('');
+
+const chipsEl = document.querySelector('.chips');
+chipsEl.innerHTML = FILTRI.map(([id, nome]) => {
+  const n = id === 'tutti' ? TOUR.length : TOUR.filter(x => x.tag.includes(id)).length;
+  return `<button class="chip" type="button" data-f="${id}" aria-pressed="${id === 'tutti'}">${nome}<span class="c">${n}</span></button>`;
+}).join('');
+chipsEl.addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  const f = b.dataset.f;
+  chipsEl.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c === b));
+  document.querySelectorAll('#groups .card').forEach(c => { c.hidden = f !== 'tutti' && !c.dataset.tag.split(' ').includes(f); });
+  document.querySelectorAll('.group').forEach(g => { g.hidden = !g.querySelector('.card:not([hidden])'); });
+});
+
+/* mesi */
+document.getElementById('months').innerHTML = MESI.map(([m, t, c, l]) =>
+  `<div class="m"><span class="mn">${m}</span><div class="bar"><i class="c-${c}" style="width:${Math.round(18 + (t - 22) / 19 * 82)}%"></i><span>${t}°</span></div><span class="ml">${l}</span></div>`).join('');
+
+/* itinerari */
+const tabsEl = document.querySelector('.tabs');
+tabsEl.innerHTML = ITINERARI.map((it, i) => `<button class="tab" role="tab" type="button" data-i="${it.id}" aria-selected="${i === 1}">${it.nome}<small>${it.sotto}</small></button>`).join('');
+document.getElementById('itins').innerHTML = ITINERARI.map((it, i) => {
+  const tourNomi = [...new Set(it.giorni.flatMap(g => g.p.flatMap(([, s]) => [...s.matchAll(/\[tour:([^\]]+)\]/g)].map(m => m[1]))))];
+  return `<div class="itin" data-i="${it.id}" ${i === 1 ? '' : 'hidden'}>
+    <h3 class="itin-h">Itinerario <em>${it.nome}</em></h3>
+    ${it.giorni.map((g, n) => `<div class="day box"><div class="dn">giorno<b>${n + 1}</b></div><div><h4>${g.t}</h4><ul>${g.p.map(([q, s]) => `<li><i>${q}</i>${tourLinks(s)}</li>`).join('')}</ul></div></div>`).join('')}
+    <a class="btn btn-wa" href="${waLink('giorgia', 'i tour dell’itinerario di ' + it.nome + ' (' + tourNomi.join(', ') + ')')}" target="_blank" rel="noopener">${waIcon}Chiedi a Giorgia tutti i tour dei ${it.nome}</a>
+  </div>`;
+}).join('');
+tabsEl.addEventListener('click', e => {
+  const b = e.target.closest('.tab'); if (!b) return;
+  tabsEl.querySelectorAll('.tab').forEach(t => t.setAttribute('aria-selected', t === b));
+  document.querySelectorAll('.itin').forEach(d => { d.hidden = d.dataset.i !== b.dataset.i; });
+});
+
+/* checklist (si ricorda le spunte su questo telefono) */
+const KEY = 'guida-dubai-check';
+let fatti = [];
+try { fatti = JSON.parse(localStorage.getItem(KEY) || '[]'); } catch (e) {}
+const checkEl = document.getElementById('check');
+checkEl.innerHTML = CHECK.map((t, i) => `<label><input type="checkbox" data-i="${i}" ${fatti.includes(i) ? 'checked' : ''}><span>${tourLinks(t)}</span></label>`).join('');
+const prog = () => { const n = checkEl.querySelectorAll('input:checked').length; document.getElementById('progress').textContent = n ? `${n} su ${CHECK.length} fatte` : ''; };
+checkEl.addEventListener('change', () => {
+  const sel = [...checkEl.querySelectorAll('input:checked')].map(x => +x.dataset.i);
+  try { localStorage.setItem(KEY, JSON.stringify(sel)); } catch (e) {}
+  prog();
+});
+prog();
+
+/* zone */
+document.getElementById('zones').innerHTML = ZONE.map((z, i) => `<div class="zone box"><span class="for">${z.per}</span><h4><span class="num">${i + 1}</span>${z.n}</h4><p>${z.t}</p><a class="gm" href="${gmaps(z.q)}" target="_blank" rel="noopener">Apri in Google Maps ↗</a></div>`).join('');
+
+/* app per categoria, con App Store e Google Play */
+const CATS = [...new Set(APPS.map(a => a.cat))];
+document.getElementById('apps').innerHTML = CATS.map(c => `<div class="app-g box"><div class="kicker">${c}</div>${APPS.filter(a => a.cat === c).map(a => `<div class="app-row"><span class="ico" style="background:${a.col}">${a.n[0]}</span><div><p><b>${a.n}</b> · ${a.t}</p><div class="stores"><a href="${a.ios}" target="_blank" rel="noopener">App Store ↗</a><a class="and" href="${a.and}" target="_blank" rel="noopener">Google Play ↗</a></div></div></div>`).join('')}</div>`).join('');
+
+/* link a siti e profili */
+document.querySelectorAll('[data-link]').forEach(a => { a.href = LINK[a.dataset.link]; a.target = '_blank'; a.rel = 'noopener'; });
+
+/* bottoni WhatsApp fissi */
+document.querySelectorAll('[data-wa]').forEach(a => {
+  a.href = waLink(a.dataset.wa, a.dataset.topic);
+  a.target = '_blank'; a.rel = 'noopener';
+});
+
+/* versione PDF: domande aperte, niente filtri */
+if (PDF) document.querySelectorAll('details').forEach(d => d.open = true);
+
+/* barra fissa */
+const sticky = document.getElementById('sticky');
+let pastHero = false, atEnd = false;
+const upd = () => sticky.classList.toggle('on', pastHero && !atEnd);
+new IntersectionObserver(([e]) => { pastHero = !e.isIntersecting; upd(); }).observe(document.querySelector('.hero'));
+new IntersectionObserver(([e]) => { atEnd = e.isIntersecting; upd(); }).observe(document.querySelector('.end'));
+
+document.getElementById('share').addEventListener('click', async () => {
+  const btn = document.getElementById('share');
+  const data = { title: 'Ti porto a Dubai', text: 'La guida su Dubai di Gemma, con il 10% sui tour', url: location.href.split('?')[0] };
+  try {
+    if (navigator.share) await navigator.share(data);
+    else { await navigator.clipboard.writeText(data.url); btn.textContent = 'Link copiato!'; }
+  } catch (e) {}
+});
+</script>
+</body>
+</html>
